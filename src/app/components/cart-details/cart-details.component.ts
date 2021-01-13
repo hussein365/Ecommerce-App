@@ -38,6 +38,6 @@ export class CartDetailsComponent implements OnInit {
   }
   remove(tempCartItem:CartItem){
 
-    this.cartService.remove(tempCartItem);
+    this.cartService.remove(tempCartItem);    
   }
 }
